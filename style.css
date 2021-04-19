@@ -1,0 +1,200 @@
+a{
+   text-decoration: none;
+ }
+a:hover{
+   text-decoration: underline;
+}
+p{
+   font-size: 25px;
+   font-style: oblique;
+   font-weight: bold;
+   color: black;
+}
+h1{
+   font-size: 50px;
+   font-style: oblique;
+   font-weight: bold;
+   color: black;
+}
+
+
+
+/*  ------ topbar start ------  */
+   .topbarback{
+      display: inline-block;
+      width: 100%;
+      height: 32px;
+      opacity: .2;
+      background-color: white;
+      font-size: 20px;
+      position: relative;
+      margin: auto;
+   }
+   .topbar{
+      position: relative;
+      bottom: 34px;
+      font-style: oblique;
+   }
+   .topbar td{
+      width: 18%;
+   }
+   .topbar button{
+      font-size: 11px;
+      border: none;
+      padding: 4px 5px;
+      border-radius: 5px;
+      background-color: #DCDCDC;
+   }
+   #searchField{
+      width: 120px;
+      font-size: 13px;
+      border: none;
+      padding: 4px 5px;
+      border-radius: 10px;
+   }
+/*  ------ topbar end ------  */
+
+
+/*  ------ aboutMe start ------  */
+   .aboutback{
+      height: 600px;
+      background-color: gray;
+      background: rgba(0, 0, 0, 0.4);
+   }
+   .about{
+      position: relative;
+      top: 60px;
+   }
+   .word{
+      color: gray;
+      font-size: 120%;
+      font-family: cursive;
+   }
+   .aitulogo{
+      background: rgba(240, 235, 235, 0.1);
+      border: none;
+      border-radius: 150px;
+   }
+   .img{
+      background: rgba(122, 121, 121, 0.5);
+      border: none;
+      border-radius: 150px;
+   }
+/*  ------ aboutMe end ------  */
+
+
+/*  ------ eduSkill start ------  */
+   .eduSkillBack{
+      height: 1415px;
+      background-color: gray;
+      background: rgba(122, 121, 121, 0.5);
+   }
+   .eduPlace{
+      border-style: groove;
+   }
+   .skills{
+      background: rgba(0, 0, 0, 0.1);
+   }
+/*  ------ eduSkill end ------  */
+
+
+/*  ------ Hobbies start ------  */
+   .hobbiesback {
+      background-image: url("site/hobbies.jpg");
+      height: 985px;
+      bottom: 100px;
+   }
+   .hword{
+      color: white;
+      font-size: 120%;
+      font-family: cursive;
+   }
+   .hobbies{
+      background: rgba(0, 0, 0, 0.3);
+   }
+/*  ------ Hobbies end ------  */
+
+
+/*  ------ Challenges end ------  */
+
+/*  ------ Challenges start ------  */
+
+
+/*  ------ Comments start ------  */
+   #name{
+      width: 15%;
+      font-size: 13px;
+      border: none;
+      padding: 4px 5px;
+      border-radius: 10px;
+   }
+   #comment{
+      width: 50%;;
+      font-size: 13px;
+      border: none;
+      padding: 4px 5px;
+      border-radius: 21px;
+   }
+/*  ------ Comments end ------  */
+
+
+/*  ------ Contact start ------  */
+   .contact{
+      background: rgba(169, 169, 169, 0.5);
+   }
+/*  ------ Contact end ------  */
+
+
+   .copyr{
+      background: rgba(54, 54, 54, 0.5);
+   }
+
+
+/*Challenges*/
+.top-cont{
+   background-color: red;
+   height: 150px;
+   width: 150px;
+   position: relative;
+   top: 150px;
+   left: 660px
+}
+.mid-cont{
+   background-color: blue;
+   height: 150px;
+   width: 150px;
+   position: relative;
+   left: 500px
+}
+.low-cont{
+   background-color: green;
+   height: 150px;
+   width: 150px;
+   position: relative;
+   bottom: 150px;
+   left: 810px
+}
+
+
+.top2-cont{
+   background-color: red;
+   height: 150px;
+   width: 150px;
+   position: absolute;
+   top: 1000px;
+   left: 308px
+}
+.mid2-cont{
+   background-color: blue;
+   height: 150px;
+   width: 150px;
+   position: absolute;
+   top: 850px;
+   left: 158px
+}
+.low2-cont{
+   background-color: green;
+   height: 150px;
+   width: 150px;
+   position: absolute;
+}
